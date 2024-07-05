@@ -1,0 +1,32 @@
+import funciones as fn
+
+registro =[]
+
+while True:
+
+    print("menu")
+    print("1. Registrar puntajes torneo")
+    print("2. Listar todos los puntajes")
+    print("3. Imprimir por Tipo")
+    print("4. Salir del programa")
+    open
+    
+    opcion=input("ingrese su opcion: ")
+    
+
+    if opcion== 1:
+        nombre=input("ingrese su nombre y apellido: ")
+        idjugador=input("ingrese su identificador: ")
+        juego=input("ingrese el juego:")
+        puntajeobtenido=input("ingrese los puntos obtenido:")
+        fn.Registrarestorneo(registro,nombre,idjugador,juego,puntajeobtenido)
+        print("registro completado")
+    elif opcion== 2:
+        fn.Listartodoslospuntajes(registro,puntajeobtenido)
+    elif opcion=="3":
+        fn.ImprimirporTipo(registro)
+    elif opcion=="4":
+        print("saliendo del programa")
+        break
+    else:
+        print("opcion incorrecta")

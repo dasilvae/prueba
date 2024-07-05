@@ -1,0 +1,16 @@
+def agregarpersona(registro,nombre,idjugador,juego,puntajeobtenido):
+    for a in registro:
+        if a["nombre"] == nombre:
+            return
+    jugador=[
+        "nombre"==nombre,
+        "idjugador"==idjugador,
+        "juego"==juego,
+        "puntajeobtenido"==puntajeobtenido, 
+    ]    
+
+    jugador.append(jugador)
+def Listartodoslospuntajes(registro,puntajeobtenido):
+    for e in registro:
+        print
+def("ImprimirporTipo")
